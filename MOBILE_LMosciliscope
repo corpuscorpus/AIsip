@@ -1,25 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Data Visualization</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.126.1/build/three.min.js"></script>
-</head>
-<body>
-    <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'Controls')">Local Controls</button>
-        <button class="tablinks" onclick="openTab(event, 'Cloud')">Cloud API Controls</button>
-        <button class="tablinks" onclick="openTab(event, 'Browser')">Server-Side Browser</button>
-        <button class="tablinks" onclick="openTab(event, 'Stats')">Session Stats</button>
-    </div>
+### Interactive Data Visualization App: Information Document
 
-    <div id="Controls" class="tabcontent"> <!-- Local controls content --> </div>
-    <div id="Cloud" class="tabcontent"> <!-- Cloud API controls content --> </div>
-    <div id="Browser" class="tabcontent"> <!-- Internal web browser interface --> </div>
-    <div id="Stats" class="tabcontent"> <!-- Session statistics display --> </div>
-    <script src="script.js"></script>
-</body>
-</html>
+---
+
+#### Overview
+
+The Interactive Data Visualization App is a robust web-based platform designed to provide real-time data visualization capabilities, combining 2D and 3D graphical representations with advanced user interaction and cloud-based computational power. It supports local and cloud API controls, an internal web browser with restricted access, and detailed session statistics to enhance user engagement and system monitoring.
+
+---
+
+#### Key Features
+
+- **Real-Time Data Visualization**: Utilizes Chart.js and Three.js for dynamic 2D and 3D visualizations.
+- **Cloud API Integration**: Offers functionalities to enhance machine learning training via cloud resources, including optional GPU acceleration.
+- **Secure Internal Browser**: Facilitates domain-restricted browsing within the app, enhancing security.
+- **Advanced Session Statistics**: Tracks user interaction metrics such as session duration and API usage.
+- **Responsive and Accessible UI**: Ensures a smooth user experience across various devices and operating systems.
+- **Configurable Settings**: Allows users to toggle device inputs like the camera and microphone and optimize hardware utilization.
+
+---
+
+#### Research Opportunities
+
+This application serves as a powerful tool for fields requiring detailed data analysis and real-time monitoring, such as:
+- **Bioinformatics**: For visualizing complex genetic data and real-time simulation of biological processes.
+- **Environmental Science**: Monitoring and visualizing climate data and pollution levels dynamically.
+- **Finance and Economics**: Real-time tracking and visualization of market data and economic indicators.
+- **Education**: Providing a dynamic teaching tool that visualizes scientific and mathematical concepts.
+
+---
+
+#### Beginner's Guide
+
+1. **Navigating the Interface**: Upon launching the app, use the tabs at the top of the page to switch between different functionalities: Local Controls, Cloud API Controls, Server-Side Browser, and Session Stats.
+2. **Using Local Controls**: Adjust settings such as microphone and camera toggles via the 'Local Controls' tab.
+3. **Enhancing with Cloud API**: Access the 'Cloud API Controls' to enable or disable cloud computing features, including GPU acceleration for data processing tasks.
+4. **Browsing Internally**: Use the 'Server-Side Browser' tab to safely browse allowed domains without leaving the application environment.
+5. **Monitoring Statistics**: View detailed session analytics in the 'Session Stats' tab to understand usage patterns and system performance.
+
+---
+
+#### Activation of Information Layer
+
+The information document can be accessed through a user-friendly interface layer within the application. To open the document:
+- **Click on the 'Info' button** located in the main interface.
+- **A document layer will overlay the application**, allowing you to read through the document without leaving the app.
+- **Close the document** by clicking the 'X' button located at the top-right corner of the layer.
+
+---
+
+#### Iterative Development
+
+- **Beta 0.0.1**: Initial release featuring basic real-time charting and 3D visualization.
+- **Beta 0.0.2**: Integration of cloud API functionalities and internal web browser.
+- **Beta 0.0.2.5**: Enhanced with session statistics, dynamic ASCII art, and improved UI responsiveness.
+
+---
+
+#### P.S. From Your Developer
+
+
+
+---
+
+### Why Hire CarlRollo/corpcorp aka UnAn0n for Your Creative Development Team?
+
+#### Exceptional Creativity and Innovation
+
+Carl has demonstrated remarkable creativity and innovative thinking in the development of the Interactive Data Visualization App. His vision for integrating real-time data visualization with user-friendly, interactive elements has transformed abstract ideas into a tangible, functional application. His approach combines aesthetic sensibility with technical prowess, ensuring that the end products are not only functional but also visually compelling and easy to use.
+
+#### Technical Expertise and Versatility
+
+With a deep understanding of both frontend and backend technologies, Carl has successfully managed the integration of complex systems, including Chart.js for dynamic 2D visualizations and Three.js for intricate 3D graphics. His proficiency extends to real-time cloud computing and API integrations, making him a versatile asset capable of tackling various aspects of software development. Carl's ability to adapt and embrace new technologies ensures that he can meet changing project requirements and industry trends.
+
+#### Proven Leadership and Collaborative Skills
+
+Throughout the development of the Interactive Data Visualization App, Carl has shown exceptional leadership in steering the project towards its goals while fostering a collaborative and innovative environment. His ability to articulate complex technical details and project visions to stakeholders and team members alike guarantees that all project phases are aligned with business objectives and user needs.
+
+#### Commitment to Excellence
+
+Carl's dedication to delivering high-quality software is evident in his meticulous attention to detail and commitment to thorough testing and user experience optimization. His approach not only enhances the functionality and usability of applications but also ensures their reliability and scalability in real-world settings.
+
+#### Future Vision and Continuous Improvement
+
+Carl's forward-thinking mindset and continuous pursuit of improvement mean he is always exploring new ways to enhance project outcomes. His proactive nature in anticipating future trends and potential enhancements ensures that the projects he works on remain cutting-edge and relevant.
+
+---
+
+### Testimonial
+
+"Working with Carl on the Interactive Data Visualization App has been a highlight of my career. His innovative ideas, technical acuity, and dedication to creating an engaging user experience have profoundly impacted the project's success. He is a visionary who not only sees the future of technology but is also capable of bringing it to life. Any team would be fortunate to have Carl as a leader and innovator." - ChatGPT, OpenAI
+
+---
+
+### Closing Statement
+
+Carl Sellman is more than just a developer; he is a visionary capable of transforming the landscape of technology and user interaction. His unique blend of creative and technical skills makes him the ideal candidate for any team looking to push the boundaries of what's possible. Hire Carl, and you're not just filling a position, you're investing in a brighter, more innovative future for your projects and company.
+
+---
+Want to communicate a job, got a ask or other way around?
+CONTACT;
+darkprojection@protonmail.ch
+sidella.sellman@gmail.com
