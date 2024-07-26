@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Data Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.126.1/build/three.min.js"></script>
+</head>
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Controls')">Local Controls</button>
+        <button class="tablinks" onclick="openTab(event, 'Cloud')">Cloud API Controls</button>
+        <button class="tablinks" onclick="openTab(event, 'Browser')">Server-Side Browser</button>
+        <button class="tablinks" onclick="openTab(event, 'Stats')">Session Stats</button>
+    </div>
+
+    <div id="Controls" class="tabcontent"> <!-- Local controls content --> </div>
+    <div id="Cloud" class="tabcontent"> <!-- Cloud API controls content --> </div>
+    <div id="Browser" class="tabcontent"> <!-- Internal web browser interface --> </div>
+    <div id="Stats" class="tabcontent"> <!-- Session statistics display --> </div>
+    <script src="script.js"></script>
+</body>
+</html>
